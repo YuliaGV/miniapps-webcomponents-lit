@@ -1,0 +1,367 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "isActive": false,
+        "balance": 1889.72,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Robert",
+        "lastNames": "Williams",
+        "gender": "male"
+      },
+      {
+        "id": 2,
+        "isActive": true,
+        "balance": 2403.87,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Maria",
+        "lastNames": "Gomez Ramirez",
+        "gender": "female"
+      },
+      {
+        "id": 3,
+        "isActive": false,
+        "balance": 1509.45,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Sanjay",
+        "lastNames": "Patel",
+        "gender": "male"
+      },
+      {
+        "id": 4,
+        "isActive": true,
+        "balance": 1837.92,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "John",
+        "lastNames": "Doe",
+        "gender": "male"
+      },
+      {
+        "id": 5,
+        "isActive": true,
+        "balance": 1956.73,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Juana",
+        "lastNames": "Martinez Perez",
+        "gender": "female"
+      },
+      {
+        "id": 6,
+        "isActive": false,
+        "balance": 2059.84,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Ajay",
+        "lastNames": "Singh",
+        "gender": "male"
+      },
+      {
+        "id": 7,
+        "isActive": true,
+        "balance": 3104.56,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Emily",
+        "lastNames": "Clark",
+        "gender": "female"
+      },
+      {
+        "id": 8,
+        "isActive": false,
+        "balance": 2745.32,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Pedro",
+        "lastNames": "Fernandez Lopez",
+        "gender": "male"
+      },
+      {
+        "id": 9,
+        "isActive": true,
+        "balance": 1209.75,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Lina",
+        "lastNames": "Santos Martinez",
+        "gender": "female"
+      },
+      {
+        "id": 10,
+        "isActive": false,
+        "balance": 1427.83,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Vijay",
+        "lastNames": "Reddy",
+        "gender": "male"
+      },
+      {
+        "id": 11,
+        "isActive": true,
+        "balance": 3549.23,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Sophia",
+        "lastNames": "Brown",
+        "gender": "female"
+      },
+      {
+        "id": 12,
+        "isActive": false,
+        "balance": 1298.65,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Carlos",
+        "lastNames": "Rodriguez Hernandez",
+        "gender": "male"
+      },
+      {
+        "id": 13,
+        "isActive": true,
+        "balance": 1845.92,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Aishwarya",
+        "lastNames": "Gupta",
+        "gender": "female"
+      },
+      {
+        "id": 14,
+        "isActive": false,
+        "balance": 2015.39,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Liam",
+        "lastNames": "Anderson",
+        "gender": "male"
+      },
+      {
+        "id": 15,
+        "isActive": true,
+        "balance": 2697.42,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Ana",
+        "lastNames": "Lopez Garcia",
+        "gender": "female"
+      },
+      {
+        "id": 16,
+        "isActive": false,
+        "balance": 1456.34,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Rajesh",
+        "lastNames": "Kumar",
+        "gender": "male"
+      },
+      {
+        "id": 17,
+        "isActive": true,
+        "balance": 1865.76,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Isabella",
+        "lastNames": "Smith",
+        "gender": "female"
+      },
+      {
+        "id": 18,
+        "isActive": false,
+        "balance": 1204.53,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Luis",
+        "lastNames": "Mendoza Castillo",
+        "gender": "male"
+      },
+      {
+        "id": 19,
+        "isActive": true,
+        "balance": 1756.98,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Arjun",
+        "lastNames": "Nair",
+        "gender": "male"
+      },
+      {
+        "id": 20,
+        "isActive": false,
+        "balance": 2309.67,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Mei",
+        "lastNames": "Chen",
+        "gender": "female"
+      },
+      {
+        "id": 21,
+        "isActive": true,
+        "balance": 1957.84,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Miguel",
+        "lastNames": "Diaz Martinez",
+        "gender": "male"
+      },
+      {
+        "id": 22,
+        "isActive": false,
+        "balance": 1748.94,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Juan",
+        "lastNames": "Perez Gomez",
+        "gender": "male"
+      },
+      {
+        "id": 23,
+        "isActive": true,
+        "balance": 2563.78,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Emma",
+        "lastNames": "Johnson",
+        "gender": "female"
+      },
+      {
+        "id": 24,
+        "isActive": false,
+        "balance": 1937.85,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Manuel",
+        "lastNames": "Gonzalez Ruiz",
+        "gender": "male"
+      },
+      {
+        "id": 25,
+        "isActive": true,
+        "balance": 2894.65,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Harish",
+        "lastNames": "Sharma",
+        "gender": "male"
+      },
+      {
+        "id": 26,
+        "isActive": false,
+        "balance": 1754.34,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Katherine",
+        "lastNames": "Williams",
+        "gender": "female"
+      },
+      {
+        "id": 27,
+        "isActive": true,
+        "balance": 3201.45,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Antonio",
+        "lastNames": "Ruiz Fernandez",
+        "gender": "male"
+      },
+      {
+        "id": 28,
+        "isActive": false,
+        "balance": 1487.23,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Grace",
+        "lastNames": "Evans",
+        "gender": "female"
+      },
+      {
+        "id": 29,
+        "isActive": true,
+        "balance": 2023.84,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Oscar",
+        "lastNames": "Hernandez Sanchez",
+        "gender": "male"
+      },
+      {
+        "id": 30,
+        "isActive": false,
+        "balance": 1869.55,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Priya",
+        "lastNames": "Rao",
+        "gender": "female"
+      },
+      {
+        "id": 31,
+        "isActive": true,
+        "balance": 2765.34,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Andrés",
+        "lastNames": "Ramirez Suarez",
+        "gender": "male"
+      },
+      {
+        "id": 32,
+        "isActive": false,
+        "balance": 1657.42,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Gabriela",
+        "lastNames": "Rojas Morales",
+        "gender": "female"
+      },
+      {
+        "id": 33,
+        "isActive": true,
+        "balance": 1987.29,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Santiago",
+        "lastNames": "Lopez Ortiz",
+        "gender": "male"
+      },
+      {
+        "id": 34,
+        "isActive": false,
+        "balance": 3245.56,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Jean",
+        "lastNames": "Dupont",
+        "gender": "male"
+      },
+      {
+        "id": 35,
+        "isActive": true,
+        "balance": 2784.12,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Marie",
+        "lastNames": "Lefevre",
+        "gender": "female"
+      },
+      {
+        "id": 36,
+        "isActive": false,
+        "balance": 1856.43,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Pierre",
+        "lastNames": "Dubois",
+        "gender": "male"
+      },
+      {
+        "id": 37,
+        "isActive": true,
+        "balance": 2345.78,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "João",
+        "lastNames": "Silva",
+        "gender": "male"
+      },
+      {
+        "id": 38,
+        "isActive": false,
+        "balance": 1987.65,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Maria",
+        "lastNames": "Oliveira",
+        "gender": "female"
+      },
+      {
+        "id": 39,
+        "isActive": true,
+        "balance": 3123.45,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Carlos",
+        "lastNames": "Souza",
+        "gender": "male"
+      },
+      {
+        "id": 40,
+        "isActive": false,
+        "balance": 2543.67,
+        "avatar": "https://placehold.co/32x32",
+        "firstNames": "Lucia",
+        "lastNames": "Cardoso",
+        "gender": "female"
+      }
+
+
+
+    ]
+  }

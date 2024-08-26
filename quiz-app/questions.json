@@ -1,0 +1,58 @@
+[
+    {
+        "question": "¿Cómo se llama la escuela de magia a la que asiste Harry Potter?",
+        "options": ["Beauxbatons", "Durmstrang", "Hogwarts", "Ilvermorny"],
+        "correctAnswer": 2,
+        "image": "https://cdn.pixabay.com/photo/2017/06/15/08/36/hogwarts-2404482_1280.jpg",
+        "explanation": "Hogwarts es la escuela de magia y hechicería a la que asiste Harry Potter en la serie de libros escrita por J.K. Rowling."
+    },
+    {
+        "question": "¿Quién es el autor de la teoría de la relatividad?",
+        "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+        "correctAnswer": 1,
+        "image": "https://cdn.pixabay.com/photo/2019/04/15/12/32/einstein-4129246_1280.jpg",
+        "explanation": "La teoría de la relatividad fue desarrollada por Albert Einstein, quien la publicó en 1905 y 1915."
+    },
+    {
+        "question": "¿Cuál es la molécula que transporta el oxígeno en la sangre?",
+        "options": ["Hemoglobina", "Glucosa", "Colágeno", "Insulina"],
+        "correctAnswer": 0,
+        "image": "https://cdn.pixabay.com/photo/2020/01/31/06/40/red-blood-cell-4807214_1280.jpg",
+        "explanation": "La hemoglobina es una proteína en los glóbulos rojos que transporta el oxígeno desde los pulmones a los tejidos del cuerpo."
+    },
+    {
+        "question": "¿Cuál es el elemento químico con el símbolo 'O'?",
+        "options": ["Oro", "Oxígeno", "Osmio", "Olvinio"],
+        "correctAnswer": 1,
+        "image": "https://content.nationalgeographic.com.es/medio/2022/06/02/oxigeno_fa8cdd40_1200x630.jpg",
+        "explanation": "El oxígeno es el elemento químico con el símbolo 'O' y es esencial para la respiración de la mayoría de los seres vivos."
+    },
+    {
+        "question": "¿En qué país se encuentra la Torre Eiffel?",
+        "options": ["Italia", "España", "Francia", "Alemania"],
+        "correctAnswer": 2,
+        "image": "https://cdn.pixabay.com/photo/2018/04/25/09/26/eiffel-tower-3349075_1280.jpg",
+        "explanation": "La Torre Eiffel está ubicada en París, Francia. Es uno de los monumentos más famosos del mundo."
+    },
+    {
+        "question": "¿Cómo se llama la protagonista femenina en la película 'Titanic'?",
+        "options": ["Molly", "Rose", "Emily", "Sophia"],
+        "correctAnswer": 1,
+        "image": "https://graziamagazine.com/mx/wp-content/uploads/sites/13/2020/06/no-vas-a-creer-quien-dibujo-en-realidad-el-retrato-de-rose-para-titanic-destacada.jpg",
+        "explanation": "Rose DeWitt Bukater es la protagonista femenina interpretada por Kate Winslet en la película 'Titanic' de James Cameron."
+    },
+    {
+        "question": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "options": ["1912", "1914", "1916", "1918"],
+        "correctAnswer": 1,
+        "image": "https://www.historylearningsite.co.uk/wp-content/uploads/images/ww1-draft-background.jpeg",
+        "explanation": "La Primera Guerra Mundial comenzó en 1914 y duró hasta 1918, involucrando a muchas de las principales potencias mundiales."
+    },
+    {
+        "question": "¿En qué equipo comenzó Cristiano Ronaldo su carrera profesional?",
+        "options": ["Manchester United", "Sporting de Lisboa", "Real Madrid", "Juventus"],
+        "correctAnswer": 1,
+        "image": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/04/08/16494028875615.jpg",
+        "explanation": "Cristiano Ronaldo comenzó su carrera profesional en el Sporting de Lisboa antes de unirse al Manchester United."
+    }
+]
