@@ -22,6 +22,10 @@ export class ClientsButtons extends LitElement {
             button:hover {
                 background-color: #7b3db0;
             }
+            button:disabled {
+                background-color: #c2bebe;
+                cursor: not-allowed;
+            }
             span {
                 font-weight: bold;
             }
@@ -32,7 +36,8 @@ export class ClientsButtons extends LitElement {
         
     static get properties() {
         return { 
-            currentPage: { type: Number }
+            currentPage: { type: Number },
+            totalPages: { type: Number }
         }
     }
 
@@ -40,6 +45,7 @@ export class ClientsButtons extends LitElement {
     constructor() {
         super();
         this.currentPage = 1;
+        this.totalPages = 0;
     }
     
    
@@ -62,9 +68,9 @@ export class ClientsButtons extends LitElement {
     render() {
         return html`
             <div class="buttons">
-                <button @click=${this.loadPreviousPage}>< Prev</button>
-                <span class="page">Page ${this.currentPage}</span>
-                <button @click=${this.loadNextPage}>Next ></button>
+                <button @click=${this.loadPreviousPage} .disabled=${this.currentPage === 1}>< Previous</button>
+                <span class="page">Page ${this.currentPage} of ${this.totalPages}</span>
+                <button @click=${this.loadNextPage} .disabled=${this.currentPage === this.totalPages}>Next ></button>
             </div>
       
         `

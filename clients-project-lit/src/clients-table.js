@@ -5,10 +5,7 @@ export class ClientsTable extends LitElement {
 
     static get styles() {
         return css`
-        :host {
-            display: block;
-           
-        }
+        
         table {
             text-align: center;
             width: 100%;

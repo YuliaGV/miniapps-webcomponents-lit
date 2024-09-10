@@ -19,6 +19,16 @@ export class ClientsApp extends LitElement {
 
       }
 
+      button {
+        background-color: #5a26ad;
+        color: white;
+        padding: .5rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 1rem;
+      }
+
 
     `
   }
@@ -28,18 +38,24 @@ export class ClientsApp extends LitElement {
       /*
           @type {Array}
       */
-      clients : { type: Array}
+      clients : { type: Array},
+      /*
+          @type {Number}
+      */
+      totalPages: { type: Number }
     }
   }
 
   constructor() {
     super();
-    this.clients = []
+    this.clients = [];
+    this.totalPages = 0;
   }
 
   async firstUpdated() {
     await clientsStore.loadNextPage();
     this.clients = clientsStore.getClients();
+    this.totalPages = clientsStore.getNumOfPages();
     
   }
 
@@ -54,8 +70,11 @@ export class ClientsApp extends LitElement {
     return html`
       <div>
         <h1>Clients App</h1>
+        <button>
+        + Add Client
+        </button>
         <clients-table .clients=${this.clients}></clients-table>
-        <clients-buttons  @update-page=${this.updatePage}></clients-buttons>
+        <clients-buttons  @update-page=${this.updatePage} .totalPages=${this.totalPages}></clients-buttons>
         
       
       </div>
