@@ -7,7 +7,7 @@ import { Client } from "../models/client"
 
 export const loadClientsByPage =  async(page = 1) => {
 
-    const url = `${import.meta.env.VITE_BASE_URL}/users?_page=${page}`
+    const url = `${import.meta.env.VITE_BASE_URL}/clients?_page=${page}`
     const response = await fetch(url)
     const {data, pages} = await response.json();
 

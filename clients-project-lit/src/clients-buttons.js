@@ -49,14 +49,14 @@ export class ClientsButtons extends LitElement {
     }
     
    
-    async loadNextPage() {
+    async _loadNextPage() {
         await clientsStore.loadNextPage();
         this.currentPage = clientsStore.getCurrentPage();
         this.dispatchEvent(new CustomEvent('update-page'));
        
     }
 
-    async loadPreviousPage() {
+    async _loadPreviousPage() {
         await clientsStore.loadPreviousPage();
         this.currentPage = clientsStore.getCurrentPage();
         this.dispatchEvent(new CustomEvent('update-page'));
@@ -68,9 +68,9 @@ export class ClientsButtons extends LitElement {
     render() {
         return html`
             <div class="buttons">
-                <button @click=${this.loadPreviousPage} .disabled=${this.currentPage === 1}>< Previous</button>
+                <button @click=${this._loadPreviousPage} .disabled=${this.currentPage === 1}>< Previous</button>
                 <span class="page">Page ${this.currentPage} of ${this.totalPages}</span>
-                <button @click=${this.loadNextPage} .disabled=${this.currentPage === this.totalPages}>Next ></button>
+                <button @click=${this._loadNextPage} .disabled=${this.currentPage === this.totalPages}>Next ></button>
             </div>
       
         `

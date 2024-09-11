@@ -1,0 +1,38 @@
+import { Client } from "../models/client"
+
+/*
+    *@param {Like<Client>} client
+    */
+
+    
+
+
+export const saveClient= async (clientLike) => {
+
+    const client = new Client(clientLike)
+
+    if(client.id){
+        throw new Error('no implemented')
+    }
+
+    return await createClient(client);
+    
+   
+
+}
+
+const createClient =  async (client) => {
+
+    const url = `${import.meta.env.VITE_BASE_URL}/clients`
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(client)
+    })  
+    return await response.json()
+   
+}
+
+
